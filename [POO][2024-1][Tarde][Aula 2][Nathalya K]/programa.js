@@ -1,4 +1,4 @@
-let alunos=["joao ","maria ","jose ","pedro ","paulo "]
+/*let alunos=["joao ","maria ","jose ","pedro ","paulo "]
 
 //alert(alunos[3])//
 
@@ -6,7 +6,7 @@ alunos.pop()
 alunos.push("Gerson")
 //alert(alunos)
 alunos.push("joaquim")
-alert(alunos)
+//alert(alunos)
 
 //========================
 //========================
@@ -61,12 +61,12 @@ let aluno6 = {
 //Em objeto, a gente usa. e o nome do atributo. Ex:
 
 console.log(aluno6.nome);
-onsole.log(aluno6.cpf);
-onsole.log(aluno6.nota);
+console.log(aluno6.cpf);
+console.log(aluno6.nota);
 
 console.log(aluno1.nome);
 aluno1.nome = 'John';
-console.log(aluno1.nome);
+console.log(aluno1.nome);*/
 
 //Carros Usados
 
@@ -76,7 +76,7 @@ let carros1 ={
     ano: 2018,
     quilometragem: 169831,
     potenciamotor:1.0,
-    preco:43.500,
+    preco:43500,
     cor: 'vermelho'
 }
 
@@ -86,7 +86,7 @@ let carros2 ={
     ano: 2022,
     quilometragem: 48850,
     potenciamotor:1.0,
-    preco:104.184,
+    preco:104184,
     cor:'prata'
 }
 
@@ -96,7 +96,7 @@ let carros3 ={
     ano: 2012,
     quilometragem: 150000,
     potenciamotor:1.6,
-    preco: 28.900,
+    preco: 28900,
     cor: 'Prata'
 }
 let carros4 ={
@@ -105,7 +105,7 @@ let carros4 ={
     ano: 2022,
     quilometragem: 37100,
     potenciamotor:1.6,
-    preco: 81.500,
+    preco: 81500,
     cor: 'Branco'
 }
 let carros5 ={
@@ -114,6 +114,63 @@ let carros5 ={
     ano: 2008,
     quilometragem: 142000,
     potenciamotor:1.0,
-    preco: 18.000,
+    preco: 18000,
     cor: 'Preto'
+}
+
+let carros6 ={
+    modelo:'Mobi',
+    marca: 'Fiat',
+    ano: 2022,
+    quilometragem: 20361,
+    potenciamotor:1.0,
+    preco: 57200,
+    cor: 'branco'
+}
+
+let carros7 ={
+    modelo:'Ecosport',
+    marca: 'Ford',
+    ano: 2021,
+    quilometragem: 71000,
+    potenciamotor:1.5,
+    preco: 88900,
+    cor: 'Preto'
+}
+
+let carros8 ={
+    modelo:'Jeep Compass',
+    marca: 'Jeep',
+    ano: 2022,
+    quilometragem: 142000,
+    potenciamotor:1.0,
+    preco: 18.000,
+    cor: 'Prata'
+}
+
+
+console.log('CARROS===================================================================')
+console.log(`${carros1.marca} ${carros1.modelo} ${carros1.ano} --> R$ ${carros1.preco}`)
+console.log(`${carros2.marca} ${carros2.modelo} ${carros2.ano} --> R$ ${carros2.preco}`)
+console.log(`${carros3.marca} ${carros3.modelo} ${carros3.ano} --> R$ ${carros3.preco}`)
+console.log(`${carros4.marca} ${carros4.modelo} ${carros4.ano} --> R$ ${carros4.preco}`)
+console.log(`${carros5.marca} ${carros5.modelo} ${carros5.ano} --> R$ ${carros5.preco}`)
+console.log(`${carros6.marca} ${carros6.modelo} ${carros6.ano} --> R$ ${carros6.preco}`)
+console.log(`${carros7.marca} ${carros7.modelo} ${carros7.ano} --> R$ ${carros7.preco}`)
+console.log(`${carros8.marca} ${carros8.modelo} ${carros8.ano} --> R$ ${carros8.preco}`)
+
+console.log('CARROS===================================================================')
+
+let listaDeCarros = [];
+listaDeCarros.push(carros1);
+listaDeCarros.push(carros2);
+listaDeCarros.push(carros3);
+listaDeCarros.push(carros4);
+listaDeCarros.push(carros5);
+listaDeCarros.push(carros6);
+listaDeCarros.push(carros7);
+listaDeCarros.push(carros8);
+
+for(let i = 0; i<listaDeCarros.length; i++){
+    console.log(`${listaDeCarros[i].marca} ${listaDeCarros[i].modelo} ${listaDeCarros[i].ano}`);
 }
