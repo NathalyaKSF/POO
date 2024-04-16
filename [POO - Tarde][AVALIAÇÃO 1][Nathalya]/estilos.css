@@ -1,0 +1,43 @@
+body{
+    background-color: #0000cb; /* cor de fundo */
+}
+
+.card{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+
+    padding: 20px;
+    margin-bottom: 20px;   
+
+    border-radius: 20px; /* arredondar as quinas */
+    background-color: #000000;
+    /* border: solid 1px #ff0000; */
+}
+
+.foto{
+    width: 100%;
+    aspect-ratio: 1/1; /* corta a imagem sem distorcer */
+    object-fit: contain;
+}
+
+.nome{
+    
+    font-size: 28px;
+    font-weight: 800;
+    color: rgb(227, 12, 12);
+}
+.ator{
+    font-size: 20px;
+
+    color: rgb(255, 255, 255);
+}
+.temporadas{
+    font-size: 20px;
+
+    color: rgb(255, 255, 255);
+}
+.anodelanc{
+    font-size: 20px;
+
+    color: rgb(255, 255, 255);
+}
